@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Imported;
+    src: url('../../fonts/Demo_Fonts/Fontspring-DEMO-biennale-medium.otf');
+}
+.Footer{
+    background-color: #001F44;
+    font-family: Imported;
+}
+.Footer .content{
+    padding: 3vmax;
+}
+.Footer .content .row-1{
+    /* background-color: #02336e; */
+    display: flex;
+    justify-content: space-between;
+}
+.Footer .content .row-1 .block{
+    width: 21%;
+    /* background-color: #125ebb; */
+}
+.Footer .content .row-1 .block-1 img{
+    width: 80%;
+}
+.Footer .content .row-1 .block-1 hr{
+    width: 100%;
+    border: 1px solid #2B2254;
+    margin: 25px 0 20px 0;
+}
+.Footer .content .row-1 .block-1 h2{
+    color: white;
+    font-size: x-large;
+}
+.Footer .content .row-1 .block-1 p{
+    color: white;
+    font-size: 16px;
+    margin: 15px 0 25px 0;
+}
+.Footer .content .row-1 .block-1 ul{
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.Footer .content .row-1 .block-1 ul li svg{
+    color: white;
+    font-size: x-large;
+}
+
+.Footer .content .row-1 .block-1 ul li:hover, 
+.Footer .content .row-1 .block-1 ul li svg:hover{
+    color: #F4CB95;;
+}
+/* ==========  ========== */
+.Footer .content .row-1 .block-2 h2{
+    padding-top: 2vmax;
+}
+.Footer .content .row-1 .block-2 h2{
+    color: white;
+    font-size: x-large;
+}
+.Footer .content .row-1 .block-2 hr{
+    width: 30%;
+    margin: 15px 0;
+    border: 1px solid #F4CB95;
+}
+.Footer .content .row-1 .block-2 ul{
+    list-style-type: none;
+    color: white;
+    font-size: 1.32vw;
+}
+.Footer .content .row-1 .block-2 ul li{
+    margin: 15px 0;
+}
+.Footer .content .row-1 .block-2 ul li svg{
+    color: #F4CB95 !important;
+}
+/* ================== ================= */
+.Footer .content .row-1 .block-3 h2{
+    padding-top: 2vmax;
+}
+.Footer .content .row-1 .block-3 h2{
+    color: white;
+    font-size: x-large;
+}
+.Footer .content .row-1 .block-3 hr{
+    width: 30%;
+    margin: 15px 0;
+    border: 1px solid #F4CB95;
+}
+.Footer .content .row-1 .block-3 ul{
+    list-style-type: none;
+    color: white;
+    font-size: 1.32vw;
+}
+.Footer .content .row-1 .block-3 ul li{
+    margin: 15px 0;
+}
+.Footer .content .row-1 .block-3 ul li a{
+    color: white;
+}
+.Footer .content .row-1 .block-3 ul li:hover,
+.Footer .content .row-1 .block-3 ul li a:hover{
+    color: #F4CB95;
+}
+/* ================== ================= */
+.Footer .content .row-1 .block-4{
+    width: 28%;
+    padding-top: 2vmax;
+}
+.Footer .content .row-1 .block-4 h2{
+    color: white;
+    font-size: x-large;
+}
+.Footer .content .row-1 .block-4 hr{
+    width: 30%;
+    margin: 15px 0;
+    border: 1px solid #F4CB95;
+}
+.Footer .content .row-1 .block-4 label{
+    position: relative;
+}
+.Footer .content .row-1 .block-4 label span{
+    position: absolute;
+    top: 10%;
+    left: 15px;
+}
+.Footer .content .row-1 .block-4 label span svg{
+    font-size: 20px;
+    color: #125ebb;
+}
+.Footer .content .row-1 .block-4 label input{
+    width: 100%;
+    padding: 10px 0 10px 40px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.Footer .content .row-1 .block-4 p{
+    color: white;
+    margin: 15px 0;
+}
+
+/* ================== ================= */
+.Footer .content hr{
+    margin: 25px 0;
+}
+.Footer .content .row-2{
+    font-family: Imported;
+    text-align: center;
+    color: white;
+}

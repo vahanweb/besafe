@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Imported;
+    src: url('../../../fonts/Demo_Fonts/Fontspring-DEMO-biennale-medium.otf');
+  }
+.contentHeader{
+    background-image: url(../../../images/content-header/content-header.png);
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vmax;
+}
+.contentHeader .container {
+    width: 500px;
+    padding: 25px 10px;
+    height: auto;
+    font-family: Imported;
+    font-style: normal;
+    color: #FEFEFE;
+}
+.contentHeader .container h2{
+    font-weight: 500;
+    font-size: 10vh;
+    line-height: 110px;
+}
+.contentHeader .container p{
+    font-size: 1.5vmax;
+}
+.contentHeader .container a{
+    background: #00408B;
+    border-radius: 15px;
+    font-size: 1vmax;
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+}

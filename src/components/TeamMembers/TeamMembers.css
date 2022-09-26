@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Imported;
+    src: url('../../fonts/Demo_Fonts/Fontspring-DEMO-biennale-medium.otf');
+}
+.TeamMembers{
+    width: 100%;
+    padding: 5vmax;
+    text-align: center;
+}
+.TeamMembers h2{
+    font-family: Imported;
+    font-size: 5vmax;
+}
+.TeamMembers p{
+    font-family: Imported;
+    font-size: 1.5vmax;
+    width: 70%;
+    margin: 0 auto;
+}
+/* ================== */
+.TeamMembers .team-content{
+    width: 100%;
+    margin-top: 3vmax;
+    display: flex;
+    justify-content: space-between;
+    font-family: Imported;
+    text-align: left;
+}
+.TeamMembers .team-content .team-block{
+    width: 250px;
+    height: 400px;
+    margin: 1px;
+}
+.TeamMembers .team-content .team-block>img{
+    width: 250px;
+    height: 280px;
+}
+.TeamMembers .team-content .team-block h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #00408B;
+}
+.TeamMembers .team-content .team-block h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #858295;
+}
+.TeamMembers .team-content .team-block ul{
+    list-style-type: none;
+}
+.TeamMembers .team-content .team-block ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.TeamMembers .team-content .team-block ul li a {
+    color: #9B98AF;
+}
+.TeamMembers .team-content .team-block ul li a:hover {
+    color: #F4CB95;
+}

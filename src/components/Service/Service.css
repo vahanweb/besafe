@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Imported;
+    src: url('../../fonts/Demo_Fonts/Fontspring-DEMO-biennale-medium.otf');
+}
+:root {
+    --swiper-navigation-size: 30px !important;
+}
+.Service{
+    width: 100%;
+    padding: 5vmax;
+}
+.title-text-controlSlider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.title-text-controlSlider h2{
+    font-family: Imported;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 89px;
+    line-height: 125px;
+    color: #050505;
+}
+.title-text-controlSlider p{
+    /* background-color: aquamarine; */
+    width: 48vmax;
+    font-family: Imported;
+    font-size: 19px;
+    line-height: 28px;    
+    color: #7C798F;
+}
+/* ==== ==== */
+.Service .slider{
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.Service .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Service .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .Service  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .Service  .swiper-slide {
+    width: 80%;
+    position: relative;
+    text-align: left;
+  }
+  .Service .swiper-slide  .SwiperSlide-content{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+  }
+  .Service .swiper-slide  .SwiperSlide-content .content{
+  border-left: 5px solid #F4CB95;;
+  padding-left: 20px;
+}
+.Service .swiper-slide  .SwiperSlide-content .content h3{
+  font-family: Imported;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 75px;
+  color: #FEFEFE;
+}
+.Service .swiper-slide  .SwiperSlide-content .content p{
+  font-family: Imported;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #FEFEFE;
+}
+
+
+  
+.Service .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+
+  .Service  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+  .Service .control-slider{
+    width: 120px;
+    height: 60px;
+}
+.Service .swiper {
+    position: initial;
+}
+.Service .swiper-button-prev{
+    width: 50px;
+    left: 1098px !important;
+    top: 1778px !important;
+    padding: 30px !important;
+}
+.Service  .swiper-button-next{
+    width: 50px;
+    color: white;
+    padding: 30px !important;
+    background: #00408B;
+    right: 65px !important;
+    top: 1778px !important;
+
+}

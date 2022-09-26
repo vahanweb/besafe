@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Imported;
+    src: url('../../fonts/Demo_Fonts/Fontspring-DEMO-biennale-medium.otf');
+  }
+.AnalyticaContent{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(180deg, rgb(233 233 233) 0%, rgb(241 241 241) 100%);
+    padding: 0 5vmax;
+    position: relative;
+}
+.AnalyticaContent .container{
+    width: 90%;
+    position: absolute;
+    top: -100px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+}
+.AnalyticaContent .container .block:nth-child(4n){
+    border-radius: 10px;
+
+}
+.AnalyticaContent .container .block .row-1,
+.AnalyticaContent .container .block .row-2{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding: 25px;
+}
+.AnalyticaContent .container .block .row-1{
+    background-color: rgb(208 204 204);
+}
+.AnalyticaContent .container .block .row-2{
+    background-color: white;
+}
+.AnalyticaContent .container .block .active{
+    background: white;
+    border-radius: 20px 0 0 0;
+}
+.AnalyticaContent .container .block .row-1 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+.AnalyticaContent .container .block .row-1 h2{
+    font-family: Imported;
+    font-style: normal;
+    font-size: 22px;
+    color: #050505;
+}
+.AnalyticaContent .container .block .row-2 p{
+    font-family: Imported;
+    font-weight: 100;
+    font-size: 20px;
+    color: #696969;
+    background-color: white;
+}
+.AnalyticaContent .container .block hr{
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid rgb(200 197 197);
+}

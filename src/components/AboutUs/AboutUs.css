@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Imported;
+    src: url('../../fonts/Demo_Fonts/Fontspring-DEMO-biennale-medium.otf');
+}
+:root{
+    --width: 50%;
+    --height: 100%;
+}
+.AboutUs{
+    width: var(--height);
+    display: flex;
+}
+.AboutUs .block-1{
+    padding: 5vmax;
+    width: var(--width);
+    height: 558px;
+    background-color: gainsboro;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.AboutUs .block-1 h2{
+    font-family: Imported;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 89.8973px;
+    line-height: 125px;
+    color: #050505;
+}
+.AboutUs .block-1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    color: #7C798F;
+}
+/* ==== ==== */
+.AboutUs .block-2{
+    width: var(--width);
+    height: var(--height);
+    position: relative;
+}
+.AboutUs .block-2 video{
+    width: var(--height);
+    height: var(--height);
+}
+.AboutUs .block-2 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ===== ===== */
+.AboutUs .block-1 .about-us-statistics{
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #7C798F;
+    border-bottom: 1px solid #7C798F;
+}
+.AboutUs .block-1 .about-us-statistics .statistics{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 35px 15px 0;
+}
+.AboutUs .block-1 .about-us-statistics .statistics span{
+    font-family: Imported;
+    font-size: 30px;
+    color: #00408B;
+
+}
+.AboutUs .block-1 .about-us-statistics .statistics p{
+    font-family: Imported;
+    font-size: 22px;
+    color: #000000;
+    padding-left: 5px;
+}
+.AboutUs .block-1 a{
+    background: #00408B;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: beige;
+    margin-top: 25px;
+    width: 115px;
+
+}

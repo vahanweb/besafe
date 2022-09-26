@@ -1,0 +1,6 @@
+.Client{
+    width: 100%;
+    padding: 5vmax;
+    display: flex;
+    justify-content: space-around;
+}
